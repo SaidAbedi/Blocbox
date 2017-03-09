@@ -68,12 +68,7 @@ p {
   }
 }
 
-
-  @media (min-width: 768px){
-    .container {
-      width: 750px;
-    }
-  }
+/* MEDIA QUERIES */
 
   @media (min-width: 768px) {
    .container {
@@ -99,6 +94,18 @@ p {
      width: 1170px;
    }
  }
+ @media only screen and (max-width: 768px){
+    #dashboard{
+      width: 50%;
+    }
+  }
+
+  @media only screen and (max-width: 992px){
+    #dashboard{
+      width: 75%;
+    }
+  }
+
 
 /*    HEADER    */
 header {
