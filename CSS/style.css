@@ -601,7 +601,12 @@ footer {
    margin-top:8px;
  }
 
-
+  .link_select{
+    font-size: 20px;
+    background: #34495E;
+    width: 100%;
+    box-shadow: 0px 4px 9px 0px rgba(0,0,0,0.60);
+  }
  /* CONTENT */
  .content {
    padding:6em 1% 1.5em;
