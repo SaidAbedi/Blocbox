@@ -12,7 +12,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h2 {
-  font-size: 28ox;
+  font-size: 28px;
   font-weight: normal;
   margin-bottom: 5px;
 }
@@ -296,22 +296,9 @@ header .hero img {
   margin-top: 0px;
 }
 
-@media (min-width: 768px){
-  .box{
-    min-height: 330px;
-  }
-  .box.third{
-    min-height: 380px;
-  }
-  .box.middle{
-    min-height: 415px;
-  }
-
-}
-
 @media (min-width: 460px){
   .box{
-    min-height: 230px;
+    min-height: 315px;
   }
   .box.third{
     min-height: 280px;
@@ -319,8 +306,34 @@ header .hero img {
   .box.middle{
     min-height: 315px;
   }
-
 }
+
+
+@media (min-width: 768px){
+  .box{
+    min-height: 380px;
+  }
+  .box.third{
+    min-height: 380px;
+  }
+  .box.middle{
+    min-height: 415px;
+  }
+}
+
+@media (min-width: 992px){
+  .box{
+    min-height: 435px;
+  }
+  .box.third{
+    min-height: 435px;
+  }
+  .box.middle{
+    min-height: 489px;
+  }
+}
+
+
 
 .box h3 {
   font-family: "Lato", Helvetica, Arial, sans-serif;
@@ -374,32 +387,28 @@ header .hero img {
  }
 
 
-/* TESTIMONIALS */
-.testimonials {
-  padding: 2em 0;
-  text-align: center;
-}
-
-.testimonials h2{
-  color: #3498DB;
-}
-
-.testimonials ul li {
-  list-style-type: none;
-}
-
-.testimonials blockquote{
-  color: #FFF;
-  text-align: left;
-  font-style: italic; 
-  background: #34495E;
-  position: relative;
-  padding: 30px;  
-  width: auto;
-  margin: 0;
-}
-
-.testimonials blockquote:after {
+ /* TESTIMONIALS */
+ .testimonials {
+   padding:4em 0;
+   text-align: center;
+ }
+ .testimonials h2 {
+   color:#3498DB;
+ }
+ .testimonials ul li {
+   list-style-type: none;
+ }
+ .testimonials blockquote {
+   color:#FFFFFF;
+   text-align: left;
+   font-style: italic;
+   background:#34495E;
+   position: relative;
+   padding:30px;
+   width:auto;
+   margin:0;
+ }
+ .testimonials blockquote:after {
    top: 100%;
    left: 13%;
    border: solid transparent;
@@ -413,7 +422,7 @@ header .hero img {
    margin-left: -10px;
  }
 
- .testimonials img {
+  .testimonials img {
    height: 65px;
    width: 65px;
    border-radius:50%;
@@ -433,6 +442,11 @@ header .hero img {
   position: relative;
   top: 20px;
  }
+@media(max-width: 992px){
+  .one-fourth{
+    width: 46%;
+  }
+}
 
 
 /* ASSIGNMENT */
@@ -444,18 +458,7 @@ header .hero img {
 
 }
 
-@media(min-width: 768px){
-  .one-fourth{
-    width: 46%;
-  }
-}
 
-
-@media(min-width: 992px){
-  .one-fourth{
-    width: 96%;
-  }
-}
 
 /*   FOOTER    */
 
@@ -510,9 +513,6 @@ footer {
    }
  
 /* ----DASHBOARD----*/
-.dashboard{
-  background:#F7F7F7;
-}
 
 .left-nav {
   height: 100vh;
