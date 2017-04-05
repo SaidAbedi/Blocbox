@@ -511,7 +511,7 @@ footer {
    footer .logo{
      padding: 2em 0 2em 1.5em;
    }
- 
+}
 /* ----DASHBOARD----*/
 .dashboard {
   background: #F7F7F7;
@@ -553,6 +553,7 @@ footer {
      -moz-transform: translate(0,0); /** Firefox **/
      z-index: 100;
  }
+
  .hamburger {
    position:absolute;
    z-index: 1000;
@@ -687,53 +688,7 @@ footer {
    overflow: hidden;
    padding:20px;
  }
-/* Larger Mobile Devices */
- @media (min-width:460px) {
-   .content {
-     padding:1.5em 1%;
-     float:right;
-     width:90%;
-     position: relative;
-   }
-   .content-item {
-     width:46%;
-     margin:0 2% 25px;
-     float:left;
-     display:block;
-   }
- }
-/* Tablets */
- @media (min-width:768px) {
-   .content {
-     padding:1.5em 5%;
-     float:right;
-     width:90%;
-     position: relative;
-   }
-   .content > .container {
-     width:700px;
-   }
-   .content-item {
-     width:31.33333%;
-     margin:0 1% 25px;
-   }
- }
-/* Laptops and Desktops */
- @media (min-width:992px) {
-   .content {
-     padding:1.5em 1%;
-     float:right;
-     width:80.33333333%;
-     position: relative;
-   }
-   .content > .container {
-     width:auto;
-   }
-   .content-item {
-     width:23%;
-     margin:0 1% 25px;
-   }
- }
+
 
   .item-box > img {
    position:absolute;
@@ -768,7 +723,42 @@ footer {
    margin:5px 0 0;
  } 
 
-.left-nav {
+
+
+/* Larger Mobile Devices */
+ @media (min-width:460px) {
+   .content {
+     padding:1.5em 1%;
+     float:right;
+     width:90%;
+     position: relative;
+   }
+   .content-item {
+     width:46%;
+     margin:0 2% 25px;
+     float:left;
+     display:block;
+   }
+ }
+/* Tablets */
+ @media (min-width:768px) {
+   .content {
+     padding:1.5em 5%;
+     float:right;
+     width:90%;
+     position: relative;
+   }
+   .content > .container {
+     width:700px;
+   }
+   .content-item {
+     width:31.33333%;
+     margin:0 1% 25px;
+   }
+ }
+/* Laptops and Desktops */
+ @media (min-width:992px) {
+    .left-nav {
      height: 100vh;
      width:14.66666667%;
      color:#FFFFFF;
@@ -792,18 +782,21 @@ footer {
    .hamburger {
      display:none;
    }
-
-
-
-
-
-
-
-
-
-
-
-
+     
+   .content {
+     padding:1.5em 1%;
+     float:right;
+     width:80.33333333%;
+     position: relative;
+   }
+   .content > .container {
+     width:auto;
+   }
+   .content-item {
+     width:23%;
+     margin:0 1% 25px;
+   }
+ }
 
 
 
