@@ -1,3 +1,21 @@
+Skip to content
+This repository
+Search
+Pull requests
+Issues
+Gist
+ @SaidAbedi
+ Sign out
+ Watch 1
+  Star 0
+  Fork 0 SaidAbedi/Blocbox
+ Code  Issues 0  Pull requests 0  Projects 0  Wiki  Pulse  Graphs  Settings
+Branch: gh-pages Find file Copy pathBlocbox/CSS/style.css
+9dbc6af  2 days ago
+@alissalikavec alissalikavec Starting to move media queries
+2 contributors @SaidAbedi @alissalikavec
+RawBlameHistory     
+815 lines (708 sloc)  13.3 KB
 html, body {
   overflow-x: hidden;
 }
@@ -93,15 +111,12 @@ p {
      min-height: 1px;
      margin:0 2% 20px;
    }
-   
  }
 
  @media (min-width: 992px) {
    .container {
-     width: 970px;
+     width: 992px;
    }
-   
-
    .one-third {
      width:29.33333%;
    }
@@ -115,7 +130,7 @@ p {
    }
  }
  /*  Change */
-@media (min-width: 150px){
+/*@media (min-width: 150px){
     .dashboard{
       width: 50%;
     }
@@ -124,7 +139,7 @@ p {
     .dashboard{
       width: 75%;
     }
-}
+}*/
 
 /*    HEADER    */
 header {
@@ -752,7 +767,7 @@ footer {
      width:700px;
    }
    .content-item {
-     width:31.33333%;
+     width:31.33333%;r
      margin:0 1% 25px;
    }
  }
@@ -797,11 +812,6 @@ footer {
      margin:0 1% 25px;
    }
  }
-
-
-
-
-
 
 
 
