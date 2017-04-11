@@ -42,7 +42,7 @@
  .dropit .dropit-open .dropit-submenu:after {
   content: " ";
   position: absolute;
-  border-style: solid;
+  border-style: 2px solid grey;
   border-width: 0px 8px 8px;
   border-color: #FFFFFF transparent;
   display: block;
